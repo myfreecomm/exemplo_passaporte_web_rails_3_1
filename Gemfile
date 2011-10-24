@@ -7,6 +7,9 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 
+gem 'devise', '1.4.9'
+gem 'omni_auth_passaporte_web', '1.0.0'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -25,7 +28,7 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :test do
   # Pretty printed test output

@@ -1,4 +1,10 @@
 ExemploPassaporteWebRails31::Application.routes.draw do
+  devise_for :users, :stateless_token => true, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" } do
+      get "sign_out", :to => "users_session#destroy"
+    end
+
+  root :to => redirect('/home')
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -54,5 +60,5 @@ ExemploPassaporteWebRails31::Application.routes.draw do
 
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
-  # match ':controller(/:action(/:id(.:format)))'
+  match ':controller(/:action(/:id(.:format)))'
 end
