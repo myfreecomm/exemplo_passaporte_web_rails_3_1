@@ -8,7 +8,7 @@ gem 'rails', '3.1.0'
 gem 'sqlite3'
 
 gem 'devise', '1.4.9'
-gem 'omni_auth_passaporte_web', '1.0.0'
+gem 'omni_auth_passaporte_web', '1.0.1'
 
 
 # Gems used only for assets and not required

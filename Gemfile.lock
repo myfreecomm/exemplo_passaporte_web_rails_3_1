@@ -83,7 +83,7 @@ GEM
     oauth2 (0.4.1)
       faraday (~> 0.6.1)
       multi_json (>= 0.0.5)
-    omni_auth_passaporte_web (1.0.0)
+    omni_auth_passaporte_web (1.0.1)
       oa-oauth (= 0.2.6)
     orm_adapter (0.0.5)
     polyglot (0.3.2)
@@ -157,7 +157,7 @@ DEPENDENCIES
   coffee-rails (~> 3.1.0)
   devise (= 1.4.9)
   jquery-rails
-  omni_auth_passaporte_web (= 1.0.0)
+  omni_auth_passaporte_web (= 1.0.1)
   rails (= 3.1.0)
   ruby-debug19
   sass-rails (~> 3.1.0)
